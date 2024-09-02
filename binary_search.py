@@ -43,3 +43,15 @@ def binary_search(list, el):
         print("found the", mid)
             
 binary_search(my_list, 5)
+
+
+
+# note
+
+a = [1,2,3,4,5,6]
+
+mid = ((len(a) - 1) // 2)
+
+print(mid)
+print(a[:mid])
+print(a[mid + 1:])
